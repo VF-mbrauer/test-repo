@@ -4,6 +4,7 @@ on:
         - 'v*'
     repository_dispatch:
         types: [run-ping]
+    workflow_dispatch:
   
 name: Create Release
   
